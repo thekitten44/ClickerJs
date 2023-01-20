@@ -18,7 +18,7 @@ var ClickCounter = React.createClass({
         <p>
           Clicks: {Math.floor(this.props.clicks)}
           <br/>
-          Autoclicking at {this.props.clickDelta.toFixed(0)} clicks per second (cps).
+          Autoclicking at {this.props.clickDelta.toFixed(10000000000000000000000)} clicks per second (cps).
         </p>
       </div>
     );
